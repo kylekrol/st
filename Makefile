@@ -7,6 +7,10 @@ include config.mk
 SRC = st.c x.c
 OBJ = $(SRC:.c=.o)
 
+DESTDIR=~/.local
+PREFIX=
+MANPREFIX=/share/man
+
 all: options st
 
 options:
